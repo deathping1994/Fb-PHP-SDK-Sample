@@ -3,8 +3,8 @@ require_once __DIR__ . '/facebook-php-sdk-v4/src/Facebook/autoload.php';
 
 session_start();
 $fb = new Facebook\Facebook([
-  'app_id' => '894783127236712',
-  'app_secret' => 'a4b407f153b1f834a635b8f00a239bfb',
+  'app_id' => 'XXXXXXXXXXXXXXXXXX',
+  'app_secret' => 'XXXXXXXXXXXXXXXXXXXXXXXX',
   'default_graph_version' => 'v2.2',
   ]);
 $helper = $fb->getRedirectLoginHelper();
